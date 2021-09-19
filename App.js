@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
+      <TextInput value="baesumin" />
       <Text>Welcome to this CI/CD course!</Text>
       <StatusBar style="auto" />
     </View>
